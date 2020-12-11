@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "react-notifications-component/dist/theme.css";
 import { Container, Row, Col } from "react-bootstrap";
+import ReactNotification from "react-notifications-component";
+import { store } from "react-notifications-component";
 
 import Header from "./components/Header";
 import Main from "./components/Main";
@@ -64,6 +67,19 @@ function App() {
   }
 
   const onAdd = (product) => {
+    store.addNotification({
+      title: "Cart Updated",
+      message: "Added to Cart Successfully",
+      type: "success",
+      insert: "top",
+      container: "top-left",
+      animationIn: ["animate__animated", "animate__fadeIn"],
+      animationOut: ["animate__animated", "animate__fadeOut"],
+      dismiss: {
+        duration: 2000,
+        onScreen: true,
+      },
+    });
     const exist = cartItems.find((x) => x.id === product.id);
     if (exist) {
       setCartItems(
@@ -76,6 +92,19 @@ function App() {
     }
   };
   const onRemove = (product) => {
+    store.addNotification({
+      title: "Cart Updated",
+      message: "Removed from Cart Successfully",
+      type: "danger",
+      insert: "top",
+      container: "top-left",
+      animationIn: ["animate__animated", "animate__fadeIn"],
+      animationOut: ["animate__animated", "animate__fadeOut"],
+      dismiss: {
+        duration: 2000,
+        onScreen: true,
+      },
+    });
     const exist = cartItems.find((x) => x.id === product.id);
     if (exist.qty === 1) {
       setCartItems(cartItems.filter((x) => x.id !== product.id));
@@ -90,6 +119,7 @@ function App() {
 
   return (
     <div className="App">
+      <ReactNotification />
       <Header />
       <Container
         fluid
