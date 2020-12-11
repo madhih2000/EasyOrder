@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/EasyOrder/static/css/main.981f6774.chunk.css",
+    "main.js": "/EasyOrder/static/js/main.637a58c3.chunk.js",
+    "main.js.map": "/EasyOrder/static/js/main.637a58c3.chunk.js.map",
+    "runtime-main.js": "/EasyOrder/static/js/runtime-main.5f44f019.js",
+    "runtime-main.js.map": "/EasyOrder/static/js/runtime-main.5f44f019.js.map",
+    "static/css/2.2a86faee.chunk.css": "/EasyOrder/static/css/2.2a86faee.chunk.css",
+    "static/js/2.77e947af.chunk.js": "/EasyOrder/static/js/2.77e947af.chunk.js",
+    "static/js/2.77e947af.chunk.js.map": "/EasyOrder/static/js/2.77e947af.chunk.js.map",
+    "static/js/3.4b60f2fc.chunk.js": "/EasyOrder/static/js/3.4b60f2fc.chunk.js",
+    "static/js/3.4b60f2fc.chunk.js.map": "/EasyOrder/static/js/3.4b60f2fc.chunk.js.map",
+    "index.html": "/EasyOrder/index.html",
+    "precache-manifest.d210343c50d1abf49ed25176eb9fc790.js": "/EasyOrder/precache-manifest.d210343c50d1abf49ed25176eb9fc790.js",
+    "service-worker.js": "/EasyOrder/service-worker.js",
+    "static/css/2.2a86faee.chunk.css.map": "/EasyOrder/static/css/2.2a86faee.chunk.css.map",
+    "static/css/main.981f6774.chunk.css.map": "/EasyOrder/static/css/main.981f6774.chunk.css.map",
+    "static/js/2.77e947af.chunk.js.LICENSE.txt": "/EasyOrder/static/js/2.77e947af.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5f44f019.js",
+    "static/css/2.2a86faee.chunk.css",
+    "static/js/2.77e947af.chunk.js",
+    "static/css/main.981f6774.chunk.css",
+    "static/js/main.637a58c3.chunk.js"
+  ]
+}
