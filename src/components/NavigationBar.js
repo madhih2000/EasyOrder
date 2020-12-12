@@ -56,15 +56,6 @@ export default function NavigationBar({ categories, filter, setFilter }) {
             ))}
         </Navbar>
       </Nav>
-      {/* <Form inline>`
-        <FormControl
-          type="text"
-          name="query"
-          placeholder="Search..."
-          className="mr-sm-2"
-        />
-        <Button variant="outline-success">Search</Button>
-      </Form> */}
     </React.Fragment>
   );
 }

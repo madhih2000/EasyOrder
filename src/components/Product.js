@@ -27,10 +27,14 @@ export default function Product(props) {
             className="m-2"
           />
           <div>
-            <Modal isOpen={modalIsOpen} ariaHideApp={false}>
+            <Modal
+              isOpen={modalIsOpen}
+              ariaHideApp={false}
+              backdrop="static"
+              style={{ overlay: { background: "rgba(52, 52, 52, 0.8)" } }}
+            >
               <div className="d-flex flex-column h-100 align-items-center justify-content-center position-relative">
                 <button
-                  data-backdrop="false"
                   onClick={setModalIsOpenToFalse}
                   style={{
                     backgroundColor: "transparent",
@@ -55,7 +59,10 @@ export default function Product(props) {
                     onClick={setModalIsOpenToTrue}
                     alt="product"
                     className="mw-100 d-inline-block mx-auto"
-                    style={{ maxHeight: "calc(100% - 50px)" }}
+                    style={{
+                      maxHeight: "calc(100% - 50px)",
+                      backfaceVisibility: "hidden",
+                    }}
                   />
                 </div>
               </div>

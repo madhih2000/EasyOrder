@@ -24,7 +24,8 @@ function App() {
   const totalPrice = itemsPrice + taxPrice;
   let orderID = random(5);
 
-  var orderData = "New order 🛵 (SuperValueCart) \n (# " + orderID + ") \n\n";
+  var orderData =
+    "New order 🛵 (SuperValueCart) \n (# " + orderID.upper + ") \n\n";
 
   const onPost = (cartItems, { name, phone, address, postal, note }) => {
     cartItems.forEach((item) => {
