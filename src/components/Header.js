@@ -14,7 +14,7 @@ function Header() {
         </div>
         <div className="">
           <small
-            className="text-uppercase text-secondary font-weight-normal text-wrap"
+            className="text-uppercase text-secondary font-weight-normal text-wrap word-wrap"
             style={{ wordBreak: "break-all" }}
           >
             Order on WhatsApp from
@@ -23,7 +23,7 @@ function Header() {
           <h2 className="font-weight-bold text-wrap">SuperValueCart</h2>
           <h5 className="text-secondary">FREE Delivery Above $70</h5>
           <span className="bg-primary text-white p-1 rounded">
-            Order by Thursday &amp; Get on Saturday
+            order by Thursday &amp; Get on Saturday
           </span>
         </div>
       </div>
