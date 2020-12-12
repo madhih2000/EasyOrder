@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/EasyOrder/static/css/main.981f6774.chunk.css",
-    "main.js": "/EasyOrder/static/js/main.7f54cc31.chunk.js",
-    "main.js.map": "/EasyOrder/static/js/main.7f54cc31.chunk.js.map",
-    "runtime-main.js": "/EasyOrder/static/js/runtime-main.ed5d7029.js",
-    "runtime-main.js.map": "/EasyOrder/static/js/runtime-main.ed5d7029.js.map",
+    "main.css": "/EasyOrder/static/css/main.7ec2f5a7.chunk.css",
+    "main.js": "/EasyOrder/static/js/main.a911c44d.chunk.js",
+    "main.js.map": "/EasyOrder/static/js/main.a911c44d.chunk.js.map",
+    "runtime-main.js": "/EasyOrder/static/js/runtime-main.295b9e28.js",
+    "runtime-main.js.map": "/EasyOrder/static/js/runtime-main.295b9e28.js.map",
     "static/css/2.69675c5f.chunk.css": "/EasyOrder/static/css/2.69675c5f.chunk.css",
-    "static/js/2.88d67715.chunk.js": "/EasyOrder/static/js/2.88d67715.chunk.js",
-    "static/js/2.88d67715.chunk.js.map": "/EasyOrder/static/js/2.88d67715.chunk.js.map",
-    "static/js/3.06594fea.chunk.js": "/EasyOrder/static/js/3.06594fea.chunk.js",
-    "static/js/3.06594fea.chunk.js.map": "/EasyOrder/static/js/3.06594fea.chunk.js.map",
+    "static/js/2.9ce3a0cf.chunk.js": "/EasyOrder/static/js/2.9ce3a0cf.chunk.js",
+    "static/js/2.9ce3a0cf.chunk.js.map": "/EasyOrder/static/js/2.9ce3a0cf.chunk.js.map",
+    "static/js/3.1060845c.chunk.js": "/EasyOrder/static/js/3.1060845c.chunk.js",
+    "static/js/3.1060845c.chunk.js.map": "/EasyOrder/static/js/3.1060845c.chunk.js.map",
     "index.html": "/EasyOrder/index.html",
-    "precache-manifest.1cd8f4f16b3e181d648f550da407cbd2.js": "/EasyOrder/precache-manifest.1cd8f4f16b3e181d648f550da407cbd2.js",
+    "precache-manifest.67374d1a549925c22dff94aafa0c7ef0.js": "/EasyOrder/precache-manifest.67374d1a549925c22dff94aafa0c7ef0.js",
     "service-worker.js": "/EasyOrder/service-worker.js",
     "static/css/2.69675c5f.chunk.css.map": "/EasyOrder/static/css/2.69675c5f.chunk.css.map",
-    "static/css/main.981f6774.chunk.css.map": "/EasyOrder/static/css/main.981f6774.chunk.css.map",
-    "static/js/2.88d67715.chunk.js.LICENSE.txt": "/EasyOrder/static/js/2.88d67715.chunk.js.LICENSE.txt"
+    "static/css/main.7ec2f5a7.chunk.css.map": "/EasyOrder/static/css/main.7ec2f5a7.chunk.css.map",
+    "static/js/2.9ce3a0cf.chunk.js.LICENSE.txt": "/EasyOrder/static/js/2.9ce3a0cf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ed5d7029.js",
+    "static/js/runtime-main.295b9e28.js",
     "static/css/2.69675c5f.chunk.css",
-    "static/js/2.88d67715.chunk.js",
-    "static/css/main.981f6774.chunk.css",
-    "static/js/main.7f54cc31.chunk.js"
+    "static/js/2.9ce3a0cf.chunk.js",
+    "static/css/main.7ec2f5a7.chunk.css",
+    "static/js/main.a911c44d.chunk.js"
   ]
 }
