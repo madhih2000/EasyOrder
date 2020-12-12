@@ -4,6 +4,7 @@ import "react-notifications-component/dist/theme.css";
 import { Container, Row, Col } from "react-bootstrap";
 import ReactNotification from "react-notifications-component";
 import { store } from "react-notifications-component";
+import random from "alphanumeric";
 
 import Header from "./components/Header";
 import Main from "./components/Main";
@@ -21,9 +22,11 @@ function App() {
   const itemsPrice = cartItems.reduce((a, c) => a + c.qty * c.price, 0);
   const taxPrice = itemsPrice > 70 ? 0 : 8;
   const totalPrice = itemsPrice + taxPrice;
-  var orderData = "New order 🛵 (SuperValueCart) \n (# DA056) \n\n";
+  let orderID = random(5);
 
-  const onPost = (cartItems, { name, phone, address, postal }) => {
+  var orderData = "New order 🛵 (SuperValueCart) \n (# " + orderID + ") \n\n";
+
+  const onPost = (cartItems, { name, phone, address, postal, note }) => {
     cartItems.forEach((item) => {
       orderData =
         orderData + "◾️\t" + item.qty + "X" + item.englishname + "\n\n";
@@ -44,6 +47,9 @@ function App() {
       address +
       "\n" +
       postal +
+      "\n\n" +
+      "*Note From Customer:*\n" +
+      note +
       "\n****\n______________\n(Message for customer)\n\nThank you for your order.\nPlease pay using PayNow to UEN 202030732E";
 
     window.open(

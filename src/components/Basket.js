@@ -18,20 +18,13 @@ export default function Basket(props) {
   const [address, setAddress] = useState("");
   const [email, setEmail] = useState("");
   const [postal, setPostal] = useState("");
+  const [note, setNote] = useState("");
 
   const [nameErr, setNameErr] = useState({});
   const [phoneErr, setPhoneErr] = useState({});
   const [addressErr, setAddressErr] = useState({});
   const [emailErr, setEmailErr] = useState({});
   const [postalErr, setPostalErr] = useState({});
-
-  // const onSubmit = (e) => {
-  //   e.preventDefault();
-  //   const isValid = formValidation();
-  //   if (isValid) {
-  //     alert("Send to Whatsapp");
-  //   }
-  // };
 
   const formValidation = () => {
     const nameErr = {};
@@ -65,7 +58,7 @@ export default function Basket(props) {
       emailErr.emailInvalid = "Please input a valid email address";
       isValid = false;
     }
-    if (!email.includes(".com")) {
+    if (!email.includes(".")) {
       emailErr.emailInvalid = "Please input a valid email address";
       isValid = false;
     }
@@ -215,7 +208,7 @@ export default function Basket(props) {
                 </div>
                 <div className="form-group">
                   <label htmlFor="zipcode" className="font-weight-bold">
-                    Landmark / Zipcode
+                    Postal Code
                   </label>
                   <input
                     id="zipcode"
@@ -331,7 +324,15 @@ export default function Basket(props) {
                     )}
                   </div>
                   <Form.Group controlId="exampleForm.ControlTextarea1">
-                    <Form.Control as="textarea" placeholder="Note" rows={3} />
+                    <Form.Control
+                      as="textarea"
+                      placeholder="Note"
+                      value={note}
+                      rows={3}
+                      onChange={(e) => {
+                        setNote(e.target.value);
+                      }}
+                    />
                   </Form.Group>
 
                   <Button
@@ -339,7 +340,7 @@ export default function Basket(props) {
                     className="btn btn-success d-block w-100"
                     onClick={() =>
                       formValidation() &&
-                      onPost(cartItems, { name, phone, address, postal })
+                      onPost(cartItems, { name, phone, address, postal, note })
                     }
                   >
                     Click to WhatsApp

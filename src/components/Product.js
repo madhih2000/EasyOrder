@@ -30,6 +30,7 @@ export default function Product(props) {
             <Modal isOpen={modalIsOpen} ariaHideApp={false}>
               <div className="d-flex flex-column h-100 align-items-center justify-content-center position-relative">
                 <button
+                  data-backdrop="false"
                   onClick={setModalIsOpenToFalse}
                   style={{
                     backgroundColor: "transparent",

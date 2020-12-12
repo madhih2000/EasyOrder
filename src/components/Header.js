@@ -23,7 +23,7 @@ function Header() {
           <h2 className="font-weight-bold text-wrap">SuperValueCart</h2>
           <h5 className="text-secondary">FREE Delivery Above $70</h5>
           <span className="bg-primary text-white p-1 rounded">
-            order by Thursday &amp; Get on Saturday
+            Order by Thursday &amp; Get on Saturday
           </span>
         </div>
       </div>

@@ -64,3 +64,7 @@ button.badge {
 .ReactModal__Overlay.ReactModal__Overlay--after-open {
   z-index: 999999;
 }
+
+.modal-backdrop {
+  background-color: green;
+}
