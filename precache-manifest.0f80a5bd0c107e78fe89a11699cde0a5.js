@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "30e5baf987d37afaff335460cb49c8ee",
+    "revision": "d44deb5188f05e47e46d76b18081cca3",
     "url": "/EasyOrder/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/EasyOrder/static/css/2.69675c5f.chunk.css"
   },
   {
-    "revision": "d295825664294bf9335a",
+    "revision": "5afbce864c29ff1025d6",
     "url": "/EasyOrder/static/css/main.7ec2f5a7.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/EasyOrder/static/js/3.1060845c.chunk.js"
   },
   {
-    "revision": "d295825664294bf9335a",
-    "url": "/EasyOrder/static/js/main.a911c44d.chunk.js"
+    "revision": "5afbce864c29ff1025d6",
+    "url": "/EasyOrder/static/js/main.3bef1127.chunk.js"
   },
   {
     "revision": "f48b6776e3a994f71d12",

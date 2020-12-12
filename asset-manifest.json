@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/EasyOrder/static/css/main.7ec2f5a7.chunk.css",
-    "main.js": "/EasyOrder/static/js/main.a911c44d.chunk.js",
-    "main.js.map": "/EasyOrder/static/js/main.a911c44d.chunk.js.map",
+    "main.js": "/EasyOrder/static/js/main.3bef1127.chunk.js",
+    "main.js.map": "/EasyOrder/static/js/main.3bef1127.chunk.js.map",
     "runtime-main.js": "/EasyOrder/static/js/runtime-main.295b9e28.js",
     "runtime-main.js.map": "/EasyOrder/static/js/runtime-main.295b9e28.js.map",
     "static/css/2.69675c5f.chunk.css": "/EasyOrder/static/css/2.69675c5f.chunk.css",
@@ -11,7 +11,7 @@
     "static/js/3.1060845c.chunk.js": "/EasyOrder/static/js/3.1060845c.chunk.js",
     "static/js/3.1060845c.chunk.js.map": "/EasyOrder/static/js/3.1060845c.chunk.js.map",
     "index.html": "/EasyOrder/index.html",
-    "precache-manifest.67374d1a549925c22dff94aafa0c7ef0.js": "/EasyOrder/precache-manifest.67374d1a549925c22dff94aafa0c7ef0.js",
+    "precache-manifest.0f80a5bd0c107e78fe89a11699cde0a5.js": "/EasyOrder/precache-manifest.0f80a5bd0c107e78fe89a11699cde0a5.js",
     "service-worker.js": "/EasyOrder/service-worker.js",
     "static/css/2.69675c5f.chunk.css.map": "/EasyOrder/static/css/2.69675c5f.chunk.css.map",
     "static/css/main.7ec2f5a7.chunk.css.map": "/EasyOrder/static/css/main.7ec2f5a7.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.69675c5f.chunk.css",
     "static/js/2.9ce3a0cf.chunk.js",
     "static/css/main.7ec2f5a7.chunk.css",
-    "static/js/main.a911c44d.chunk.js"
+    "static/js/main.3bef1127.chunk.js"
   ]
 }
