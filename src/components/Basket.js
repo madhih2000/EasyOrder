@@ -42,7 +42,7 @@ export default function Basket(props) {
       phoneErr.phoneInvalid = "Please input a valid number";
       isValid = false;
     }
-    if (phone.length > 11) {
+    if (phone.length !== 8) {
       phoneErr.phoneInvalid = "Please input a valid number";
       isValid = false;
     }
