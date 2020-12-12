@@ -2,18 +2,21 @@ import React from "react";
 
 function Header() {
   return (
-    <div className="container py-4 overflow-none ">
+    <div className="container py-4 px-1 overflow-none ">
       <div className="d-flex align-items-start">
-        <div className="d-none d-sm-block mr-3">
+        <div className="mr-0 mr-sm-3 mt-3">
           <img
-            style={{ width: 64 }}
+            style={{ maxWidth: 78, minWidth: 48 }}
             src="https://www.supervaluecart.com/image/placeholder.png"
-            className="image"
+            className="image w-sm-100 w-75"
             alt="logo"
           />
         </div>
         <div className="">
-          <small className="text-uppercase text-secondary font-weight-normal text-wrap">
+          <small
+            className="text-uppercase text-secondary font-weight-normal text-wrap"
+            style={{ wordBreak: "break-all" }}
+          >
             Order on WhatsApp from
           </small>
           <br />
